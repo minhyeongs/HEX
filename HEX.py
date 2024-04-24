@@ -1,4 +1,5 @@
 import discord
+import os
 import random
 
 # 인텐트 설정
