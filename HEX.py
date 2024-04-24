@@ -31,4 +31,5 @@ async def on_message(message):
         await message.channel.send(response)
 
 # 디스코드 봇 실행
-client.run('MTIzMjMwNTQ3MjAyNDA4NDU1Mg.GBNmnG.lXNW3Z2O4zIsAc-HjzVaMjvUjghxULGn5vFgvs')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
