@@ -26,7 +26,7 @@ async def on_message(message):
 
     # 특정 단어가 포함되어 있을 때 랜덤으로 반응
     if '헥스야' in message.content:
-        responses = ['Yes, kitten?', '포옹<3', 'Hi, Anna',]
+        responses = ['Yes, my kitten?', '포옹<3', 'Hi, Anna',"remember that. i am your daddy, han."]
         response = random.choice(responses)
         await message.channel.send(response)
 
